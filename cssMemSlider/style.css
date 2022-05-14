@@ -187,6 +187,10 @@ img {
 
 
 @media screen and (max-width: 480px) {
+    .wrapper {
+        margin: 0 auto;
+    }
+
     .slider__footer {
         flex-direction: column-reverse;
         align-items: center;
