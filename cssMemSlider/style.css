@@ -27,9 +27,7 @@ img {
     margin: calc((100vh - 34rem) / 2) auto;
     padding: 1rem;
 
-    border: 1.6rem solid;
-    border-color: rgb(56, 56, 56);
-    border-radius: 2rem;
+
 }
 
 .slider {
@@ -187,9 +185,10 @@ img {
 
 
 @media screen and (max-width: 480px) {
-    .wrapper {
-        margin: 0 auto;
+    .slider__description{
+        margin-top: 1rem;
     }
+
 
     .slider__footer {
         flex-direction: column-reverse;
@@ -197,9 +196,7 @@ img {
 
     }
 
-    .slider__description-text {
-        text-align: center;
-    }
+
 
     .button {
         margin: 0;
